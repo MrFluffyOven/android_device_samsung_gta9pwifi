@@ -68,7 +68,6 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01e00000
  --ramdisk_offset 0x02000000 \
  --kernel_offset 0x00008000 \
  --second_offset 0x00000000 \
- --dtbo_offset 53387264 \
  --dtb_offset 0x01f00000 \
  --header_version 2 \
  --tags_offset 0x01e00000  
