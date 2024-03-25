@@ -16,16 +16,3 @@ system_dlkm					/system_dlkm	erofs	ro			wait,logical,first_stage_mount
 
 # External
 /sdcard            vfat      /dev/block/mmcblk1p1                            flags=display="sdcard"/boot              emmc      /dev/block/bootdevice/by-name/boot              flags=display=boot
-
-# Other
-/recovery          emmc      /dev/block/bootdevice/by-name/recovery          flags=display=recovery
-/misc              emmc      /dev/block/bootdevice/by-name/misc              flags=display=misc
-/efs               ext4      /dev/block/bootdevice/by-name/sec_efs           flags=display=efs
-/sec_efs           ext4      /dev/block/bootdevice/by-name/sec_efs           flags=display=sec_efs
-/dtbo              emmc      /dev/block/bootdevice/by-name/dtbo              flags=display=dtbo
-/mdm               emmc      /dev/block/bootdevice/by-name/modem             flags=display=mdm
-/prism             ext4      /dev/block/bootdevice/by-name/prism             flags=display=prism
-/odm               erofs     odm                                             flags=display=odm;logical
-/vendor_dlkm       erofs     vendor_dlkm                                     flags=display=vendor_dlkm;logical
-/imagefv           emmc      /dev/block/bootdevice/by-name/imagefv           flags=display=imagefv
-/vendor_boot       emmc      /dev/block/bootdevice/by-name/vendor_boot       flags=display=vendor_boot
