@@ -1,0 +1,88 @@
+/lib/modules/5.4-gki/usb_notify_layer.ko:
+/lib/modules/5.4-gki/clk-dummy.ko: /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_boot_stat.ko: /lib/modules/5.4-gki/sec_class.ko
+/lib/modules/5.4-gki/qpnp-power-on.ko:
+/lib/modules/5.4-gki/gcc-holi.ko: /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_qc_upload_cause.ko: /lib/modules/5.4-gki/sec_crashkey_long.ko /lib/modules/5.4-gki/sec_debug.ko /lib/modules/5.4-gki/sec_key_notifier.ko /lib/modules/5.4-gki/sec_upload_cause.ko
+/lib/modules/5.4-gki/sec_debug_region.ko:
+/lib/modules/5.4-gki/tcpc_rt1711h.ko: /lib/modules/5.4-gki/tcpc_class.ko
+/lib/modules/5.4-gki/pinctrl-blair.ko: /lib/modules/5.4-gki/pinctrl-msm.ko
+/lib/modules/5.4-gki/focaltech_tp.ko: /lib/modules/5.4-gki/sec_cmd.ko /lib/modules/5.4-gki/msm_drm.ko /lib/modules/5.4-gki/v4l2-mem2mem.ko /lib/modules/5.4-gki/msm_dma_iommu_mapping.ko /lib/modules/5.4-gki/ocp2138.ko /lib/modules/5.4-gki/wt_chg.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/spmi-pmic-arb.ko /lib/modules/5.4-gki/_qcom_scm.ko /lib/modules/5.4-gki/sec_class.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_arm64_ap_context.ko: /lib/modules/5.4-gki/sec_debug_region.ko
+/lib/modules/5.4-gki/_qcom_scm.ko:
+/lib/modules/5.4-gki/phy-qcom-ufs-qmp-v4-yupik.ko: /lib/modules/5.4-gki/phy-qcom-ufs.ko
+/lib/modules/5.4-gki/clk-qcom.ko: /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_reboot_cmd.ko:
+/lib/modules/5.4-gki/subsystem_restart.ko: /lib/modules/5.4-gki/qmi_helpers.ko /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/proxy-consumer.ko:
+/lib/modules/5.4-gki/msm-poweroff.ko: /lib/modules/5.4-gki/qpnp-power-on.ko /lib/modules/5.4-gki/_qcom_scm.ko
+/lib/modules/5.4-gki/spi-msm-geni.ko: /lib/modules/5.4-gki/msm-geni-se.ko
+/lib/modules/5.4-gki/sec_key_notifier.ko:
+/lib/modules/5.4-gki/mpm.ko:
+/lib/modules/5.4-gki/iommu-logger.ko:
+/lib/modules/5.4-gki/sec_qc_rbcmd.ko: /lib/modules/5.4-gki/sec_reboot_cmd.ko
+/lib/modules/5.4-gki/qnoc-holi.ko: /lib/modules/5.4-gki/qnoc-qos.ko /lib/modules/5.4-gki/icc-rpm.ko /lib/modules/5.4-gki/rpm-smd.ko
+/lib/modules/5.4-gki/sec_crashkey_long.ko: /lib/modules/5.4-gki/sec_debug.ko /lib/modules/5.4-gki/sec_key_notifier.ko
+/lib/modules/5.4-gki/qcom_glink_smem.ko: /lib/modules/5.4-gki/qcom_glink_native.ko /lib/modules/5.4-gki/subsystem_restart.ko /lib/modules/5.4-gki/qmi_helpers.ko /lib/modules/5.4-gki/smem.ko /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/sec_log_buf.ko:
+/lib/modules/5.4-gki/qmi_helpers.ko:
+/lib/modules/5.4-gki/msm_dma_iommu_mapping.ko:
+/lib/modules/5.4-gki/rpm-smd.ko:
+/lib/modules/5.4-gki/jadard_touch.ko:
+/lib/modules/5.4-gki/qnoc-qos.ko:
+/lib/modules/5.4-gki/refgen.ko: /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/grdm.ko:
+/lib/modules/5.4-gki/phy-qcom-ufs-qmp-v3.ko: /lib/modules/5.4-gki/phy-qcom-ufs.ko
+/lib/modules/5.4-gki/sec_cmd.ko: /lib/modules/5.4-gki/sec_class.ko
+/lib/modules/5.4-gki/icnl9951r.ko: /lib/modules/5.4-gki/sec_cmd.ko /lib/modules/5.4-gki/msm_drm.ko /lib/modules/5.4-gki/v4l2-mem2mem.ko /lib/modules/5.4-gki/msm_dma_iommu_mapping.ko /lib/modules/5.4-gki/ocp2138.ko /lib/modules/5.4-gki/wt_chg.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/spmi-pmic-arb.ko /lib/modules/5.4-gki/_qcom_scm.ko /lib/modules/5.4-gki/sec_class.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/v4l2-mem2mem.ko:
+/lib/modules/5.4-gki/sec_qc_rdx_bootdev.ko: /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/qcom_hwspinlock.ko:
+/lib/modules/5.4-gki/sec_upload_cause.ko:
+/lib/modules/5.4-gki/himax_mmi.ko: /lib/modules/5.4-gki/sec_cmd.ko /lib/modules/5.4-gki/msm_drm.ko /lib/modules/5.4-gki/v4l2-mem2mem.ko /lib/modules/5.4-gki/msm_dma_iommu_mapping.ko /lib/modules/5.4-gki/ocp2138.ko /lib/modules/5.4-gki/wt_chg.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/spmi-pmic-arb.ko /lib/modules/5.4-gki/_qcom_scm.ko /lib/modules/5.4-gki/sec_class.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/gcc-blair.ko: /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/usb_notifier_qcom.ko: /lib/modules/5.4-gki/usb_notify_layer.ko
+/lib/modules/5.4-gki/i2c-msm-geni.ko: /lib/modules/5.4-gki/msm-geni-se.ko
+/lib/modules/5.4-gki/memory_dump_v2.ko: /lib/modules/5.4-gki/_qcom_scm.ko
+/lib/modules/5.4-gki/sec_class.ko:
+/lib/modules/5.4-gki/cqhci-crypto.ko:
+/lib/modules/5.4-gki/tcpc_class.ko:
+/lib/modules/5.4-gki/smem.ko:
+/lib/modules/5.4-gki/sgm41542_charger.ko: /lib/modules/5.4-gki/rt_pd_manager.ko /lib/modules/5.4-gki/usb_notify_layer.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/tcpc_class.ko
+/lib/modules/5.4-gki/icc-rpm.ko: /lib/modules/5.4-gki/rpm-smd.ko
+/lib/modules/5.4-gki/qcom_glink_native.ko: /lib/modules/5.4-gki/subsystem_restart.ko /lib/modules/5.4-gki/qmi_helpers.ko /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/ocp2138.ko:
+/lib/modules/5.4-gki/qcom_glink_rpm.ko: /lib/modules/5.4-gki/qcom_glink_native.ko /lib/modules/5.4-gki/subsystem_restart.ko /lib/modules/5.4-gki/qmi_helpers.ko /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/sc89890h_charger.ko: /lib/modules/5.4-gki/hardware_info.ko
+/lib/modules/5.4-gki/phy-qcom-ufs.ko:
+/lib/modules/5.4-gki/sec_arm64_fsimd_debug.ko: /lib/modules/5.4-gki/sec_debug.ko
+/lib/modules/5.4-gki/qcom-arm-smmu-mod.ko: /lib/modules/5.4-gki/iommu-logger.ko /lib/modules/5.4-gki/secure_buffer.ko /lib/modules/5.4-gki/_qcom_scm.ko
+/lib/modules/5.4-gki/cx25890h_charger.ko: /lib/modules/5.4-gki/rt_pd_manager.ko /lib/modules/5.4-gki/usb_notify_layer.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/tcpc_class.ko
+/lib/modules/5.4-gki/stub-regulator.ko:
+/lib/modules/5.4-gki/rpm-smd-regulator.ko: /lib/modules/5.4-gki/rpm-smd.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_qc_msm_poweroff.ko: /lib/modules/5.4-gki/sec_qc_rbcmd.ko /lib/modules/5.4-gki/sec_reboot_cmd.ko /lib/modules/5.4-gki/msm-poweroff.ko /lib/modules/5.4-gki/qpnp-power-on.ko /lib/modules/5.4-gki/_qcom_scm.ko
+/lib/modules/5.4-gki/cqhci-crypto-qti.ko: /lib/modules/5.4-gki/cqhci-crypto.ko /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko
+/lib/modules/5.4-gki/sec_param.ko:
+/lib/modules/5.4-gki/hwkm.ko:
+/lib/modules/5.4-gki/cw2217_fuel_gauge.ko: /lib/modules/5.4-gki/hardware_info.ko
+/lib/modules/5.4-gki/pinctrl-msm.ko:
+/lib/modules/5.4-gki/msm_drm.ko: /lib/modules/5.4-gki/v4l2-mem2mem.ko /lib/modules/5.4-gki/msm_dma_iommu_mapping.ko /lib/modules/5.4-gki/ocp2138.ko /lib/modules/5.4-gki/wt_chg.ko /lib/modules/5.4-gki/hardware_info.ko /lib/modules/5.4-gki/spmi-pmic-arb.ko /lib/modules/5.4-gki/_qcom_scm.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/hardware_info.ko:
+/lib/modules/5.4-gki/ufshcd-crypto-qti.ko: /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko
+/lib/modules/5.4-gki/crypto-qti-hwkm.ko: /lib/modules/5.4-gki/hwkm.ko
+/lib/modules/5.4-gki/secure_buffer.ko: /lib/modules/5.4-gki/_qcom_scm.ko
+/lib/modules/5.4-gki/rt_pd_manager.ko: /lib/modules/5.4-gki/usb_notify_layer.ko /lib/modules/5.4-gki/tcpc_class.ko
+/lib/modules/5.4-gki/cqhci.ko: /lib/modules/5.4-gki/cqhci-crypto.ko
+/lib/modules/5.4-gki/ufs-qcom.ko: /lib/modules/5.4-gki/ufshcd-crypto-qti.ko /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko /lib/modules/5.4-gki/phy-qcom-ufs.ko /lib/modules/5.4-gki/sec_class.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_crashkey.ko: /lib/modules/5.4-gki/sec_debug.ko /lib/modules/5.4-gki/sec_key_notifier.ko
+/lib/modules/5.4-gki/wt_chg.ko:
+/lib/modules/5.4-gki/msm-geni-se.ko:
+/lib/modules/5.4-gki/phy-qcom-ufs-qrbtc-sdm845.ko: /lib/modules/5.4-gki/phy-qcom-ufs.ko
+/lib/modules/5.4-gki/aw35615_whole.ko: /lib/modules/5.4-gki/tcpc_class.ko
+/lib/modules/5.4-gki/clk-smd-rpm.ko: /lib/modules/5.4-gki/rpm-smd.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/sec_debug.ko:
+/lib/modules/5.4-gki/crypto-qti-common.ko: /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko
+/lib/modules/5.4-gki/qcom_ipcc.ko:
+/lib/modules/5.4-gki/pinctrl-holi.ko: /lib/modules/5.4-gki/pinctrl-msm.ko
+/lib/modules/5.4-gki/sdhci-msm.ko: /lib/modules/5.4-gki/cqhci-crypto-qti.ko /lib/modules/5.4-gki/cqhci.ko /lib/modules/5.4-gki/cqhci-crypto.ko /lib/modules/5.4-gki/crypto-qti-common.ko /lib/modules/5.4-gki/crypto-qti-hwkm.ko /lib/modules/5.4-gki/hwkm.ko /lib/modules/5.4-gki/pinctrl-msm.ko /lib/modules/5.4-gki/clk-qcom.ko /lib/modules/5.4-gki/proxy-consumer.ko
+/lib/modules/5.4-gki/spmi-pmic-arb.ko:
