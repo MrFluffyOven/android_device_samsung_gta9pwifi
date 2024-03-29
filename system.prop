@@ -4,12 +4,3 @@ ro.product.system.brand=samsung
 ro.product.system.device=gta9pwifi
 ro.product.system.manufacturer=samsung
 ro.product.system.model=SM-X210
-
-ro.boot.boot_devices=soc/4804000.ufshc
-ro.boot.bootdevice=4804000.ufshc
-ro.boot.usbcontroller=4e00000.dwc3
-persist.sys.disable_rescue=true
-ro.debuggable=1
-ro.build.characteristics=tablet
-ro.vndk.version=30
-ro.build.sdk.version=30
