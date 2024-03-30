@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/gta9p
+DEVICE_PATH := device/samsung/gta9pwifi
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -85,7 +85,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
  BOARD_MKBOOTIMG_ARGS := \
  --dtb $(TARGET_PREBUILT_DTB) \
- --board SRPWD25B001 \
+ --board SRPWF14A001 \
  --ramdisk_offset 0x02000000 \
  --kernel_offset 0x00008000 \
  --second_offset 0x00000000 \
@@ -220,4 +220,4 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_APEX := true
 TW_INCLUDE_FASTBOOTD := true
 TW_PREPARE_DATA_MEDIA_EARLY := true
-TW_DEVICE_VERSION := X216BXXU1BXA7 stable 1.0.0
+TW_DEVICE_VERSION := X210 Stable
