@@ -4,8 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
-LOCAL_PATH := device/samsung/gta9pwifi
+LOCAL_PATH := device/samsung/gta9p
 
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 32

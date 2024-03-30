@@ -1,4 +1,4 @@
-
+#
 # Copyright (C) 2022 The Android Open Source Project
 # Copyright (C) 2022 The TWRP Open Source Project
 #
