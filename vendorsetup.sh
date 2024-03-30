@@ -40,7 +40,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 # Initial Info
     export ALLOW_MISSING_DEPENDENCIES=true
     export LC_ALL="C"
-  
+    export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
 # Maintaining Info
     export OF_MAINTAINER=Crypton
     export FOX_VERSION="R11.1"
