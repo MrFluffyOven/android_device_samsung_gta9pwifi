@@ -1,4 +1,3 @@
-
 # mount point	    fstype		device			device2			flags
 # Symlinked partitions
 /system_image		emmc	/dev/block/bootdevice/by-name/system		flags=backup=0;flashimg;display="System Image"

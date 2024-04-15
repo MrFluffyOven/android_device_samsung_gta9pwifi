@@ -10,6 +10,7 @@
         manifest.xml
         manifest.xml
         manifest.xml
+        manifest.xml
 -->
 <manifest version="2.0" type="device" target-level="5">
     <hal format="hidl">
@@ -144,16 +145,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IOffloadControl/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>com.qualcomm.qti.dpm.api</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IdpmQmi</name>
-            <instance>dpmQmiService</instance>
-        </interface>
-        <fqname>@1.0::IdpmQmi/dpmQmiService</fqname>
     </hal>
     <hal format="hidl">
         <name>interfaces.factoryAta</name>
@@ -593,6 +584,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ISehSem/default</fqname>
+    </hal>
+    <hal format="hidl" override="true">
+        <name>vendor.samsung.hardware.security.skpm</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISehSkpm</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ISehSkpm/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.sysinput</name>

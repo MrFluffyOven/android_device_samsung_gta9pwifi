@@ -9,8 +9,7 @@ LOCAL_PATH := device/samsung/gta9pwifi
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 32
 
-# define hardware platform
-PRODUCT_PLATFORM := holi
+# Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # fastbootd
@@ -52,8 +51,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# TWRP
+TWRP_REQUIRED_MODULES += gta9pwifi_firmware
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 32
-
-# Copy modules for depmod
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(DEVICE_PATH)/prebuilt/lib/modules/1.1,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/1.1)
