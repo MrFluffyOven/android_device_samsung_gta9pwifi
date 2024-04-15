@@ -10,19 +10,26 @@ DEVICE_PATH := device/samsung/gta9pwifi
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-# Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := holi
-TARGET_NO_BOOTLOADER := true
+# Platforms/Hardwares
+BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := holi
 TARGET_BOARD_PLATFORM_GPU := adreno619
-QCOM_BOARD_PLATFORMS += holi
+QCOM_BOARD_PLATFORMS += $(TARGET_BOARD_PLATFORM)
+
+# Bootloader
+TARGET_NO_BOOTLOADER := true
 BOARD_USES_QCOM_HARDWARE := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_FLIPPED_SCREEN := true
 
-TARGET_USES_UEFI := true
-TARGET_NO_RADIOIMAGE := true
-TARGET_NO_BOOTLOADER := true
+# Display
+TARGET_SCREEN_DENSITY := 240
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1200
+BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_FLIPPED_SCREEN := true
+
+# Other
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
@@ -132,30 +139,16 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext vendor prod
 BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 BOARD_SUPPRESS_SECURE_ERASE := true
 
-# Additional binaries & libraries needed for recovery
-TARGET_RECOVERY_DEVICE_MODULES += \
-    libdisplayconfig.qti \
-    libion \
-    libxml2 \
-    libdmabufheap \
-    vendor.display.config@1.0 \
-    vendor.display.config@2.0
-RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libdmabufheap.so \
-    $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/libdisplayconfig.qti.so \
-    $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@1.0.so \
-    $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@2.0.so
-
-# Vendor Modules
-TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/lib/modules/1.1)\")
-
 # Recovery
+RECOVERY_SDCARD_ON_DATA := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+TARGET_USES_UEFI := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Security patch level
 PLATFORM_VERSION := 14
@@ -174,7 +167,6 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_METADATA_PARTITION := true
 BOARD_USES_QCOM_FBE_DECRYPTION := true
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Debug
 TARGET_USES_LOGD := true
@@ -185,9 +177,6 @@ TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(TARGET_OUT_EXECUTABLES)/debuggerd
 
 # Fix for copying *.ko
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
-
-# fstab
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
